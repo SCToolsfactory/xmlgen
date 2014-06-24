@@ -1,0 +1,279 @@
+body
+{
+  background-image: url('/images/backgroundNoisePattern.png');
+  background-repeat: repeat;
+  font-family: "Verdana", "sans-serif";
+}
+
+#headerContainer
+{
+  width: 100%;
+  height: 66px;
+  background: transparent;
+}
+
+#headerImageContainer
+{
+  width: 54px;
+  height: 66px;
+  float: left;
+}
+
+#headerImageContainer img
+{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#headerTextContainer
+{
+  width: 1187px;
+  height: 66px;
+  text-align: center;
+  vertical-align: middle;
+  float: left;
+}
+
+#headerTextContainer span
+{
+  position: relative;
+  color: #AAAAAA;
+  font-size: 30pt;
+  font-weight: bold;
+  height: 48px;
+  width: 100%;
+  top: 9px;
+  left: 0px;
+}
+
+#masterPageContainer
+{
+  width: 1366px;
+  height: 768px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#inputMethodSelectionContainer
+{
+  width: 1080px;
+  height: 32px;
+  float: left;
+}
+
+#leftInputMethodArrowContainer
+{
+  float: left;
+}
+
+#rightInputMethodArrowContainer
+{
+  float: right;
+}
+
+#leftInputMethodArrowContainer, #rightInputMethodArrowContainer
+{
+  width: 150px;
+}
+
+#leftInputMethodArrow
+{
+  width: 0;
+  height: 0;
+  float: right;
+  border-top: 16px solid transparent;
+  border-bottom: 16px solid transparent;
+  border-right: 16px solid #AAAAAA;
+
+  opacity: 0.80;
+}
+
+#rightInputMethodArrow
+{
+  width: 0;
+  height: 0;
+  float: left;
+  border-top: 16px solid transparent;
+  border-bottom: 16px solid transparent;
+  border-left: 16px solid #AAAAAA;
+
+  opacity: 0.80;
+}
+
+#inputMethodReelContainer
+{
+  float: left;
+  width: 780px;
+  height: 100%;
+  overflow: hidden;
+}
+
+.inputMethod
+{
+  float: left;
+  width: 780px;
+  height: 100%;
+  font-size: 20pt;
+  font-weight: bold;
+  color: black;
+}
+
+.inputMethod span
+{
+  text-align: center;
+  display: block;
+}
+
+#inputMethodMobileContainer
+{
+  width: 3120px;
+  height: 50px;
+  position: relative;
+}
+
+#inputMapContainer
+{
+  width: 1080px;
+  height: 670px;
+  float: left;
+  overflow: hidden;
+}
+
+.inputMap
+{
+  position: relative;
+  float: left;
+  width: 1080px;
+  height: 670px;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.inputMapVisualizationWrapper
+{
+  position: relative;
+  top: 98px;
+  width: 1050px;
+  height: 475px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inputMap img
+{
+  width: 1050px;
+  height: 475px;
+}
+
+#actionListContainer
+{
+  float: right;
+  width: 286px;
+  height: 502px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 15px;
+  text-align: center;
+}
+
+#actionListContainer > span
+{
+  font-size: 18pt;
+  font-weight: bold;
+  text-decoration: underline;
+  color: #888888;
+  margin-top: 5px;
+}
+
+#actionItemList
+{
+  margin-top: 7px;
+  width: 95%;
+  height: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-y: scroll;
+}
+
+#linkline
+{
+  position: absolute;
+  left: 655px;
+  top: 70px;
+  width: 1px;
+  height: 140px;
+  background-color: #06a;
+  z-index: 1000;
+  -webkit-transform-origin: top left;
+  -moz-transform-origin: top left;
+  -o-transform-origin: top left;
+  -ms-transform-origin: top left;
+  transform-origin: top left;
+
+  -webkit-transform: rotate(-16deg);
+}
+
+#buttonbox
+{
+  position: absolute;
+  left: 580px;
+  top: 40px;
+  width: 75px;
+  height: 30px;
+  color: white;
+  border: 1px #06a solid;
+  background-color: black;
+  text-align: center;
+}
+
+#buttonbox span
+{
+  width: 100%;
+  display: block;
+  margin-top: 5px;
+}
+
+#inputMapReelContainer
+{
+  width: 2160px;
+  height: 670px;
+  position: relative;
+}
+
+#optionsContainer
+{
+  position: relative;
+  width: 286px;
+  height: 200px;
+  border-radius: 15px;
+  float: right;
+  background-color: rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+
+#optionsContainer > span
+{
+  font-size: 18pt;
+  font-weight: bold;
+  text-decoration: underline;
+  color: #888888;
+  margin-top: 5px;
+}
+
+#optionsContainer > #btnCreateXmlFile
+{
+  position: absolute;
+  display: block;
+  margin-left: 10%;
+  width: 80%;
+  height: 22px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  bottom: 5px;
+}
+
+#btnCreateXmlFile span
+{
+  display: block;
+  margin-top: 2px;
+}
